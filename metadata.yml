@@ -1,6 +1,6 @@
 Identifier: eos8lcw
 Slug: antimicrobial-activity-saureus
-Status: In progress
+Status: Ready
 Title: Antimicrobial activity prediction against Staphylococcus aureus from 
   public ChEMBL and PubChem data
 Description: Bioactivity prediction of growth inhibition in Staphylococcus 
@@ -43,6 +43,16 @@ Source Code: https://github.com/ersilia-os/chembl-antimicrobial-models
 License: GPL-3.0-or-later
 Contributor: arnaucoma24
 Incorporation Date: '2026-05-19'
+Last Packaging Date: '2026-05-21'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8lcw.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos8lcw
+Docker Architecture: AMD64
 Model Size: 1045.0
 Environment Size: 1888.0
+Image Size: 3959.44
+Computational Performance 1: 85.74
+Computational Performance 2: 74.75
+Computational Performance 3: 85.46
+Computational Performance 4: 576.75
+Computational Performance 5: -1.0
