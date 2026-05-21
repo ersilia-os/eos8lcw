@@ -1,48 +1,37 @@
 Identifier: eos8lcw
 Slug: antimicrobial-activity-saureus
 Status: In progress
-Title: Antimicrobial activity prediction against Staphylococcus aureus from 
-  public ChEMBL and PubChem data
-Description: Bioactivity prediction of growth inhibition in Staphylococcus 
-  aureus, trained as binary (active/inactive) classifiers from publicly 
-  available data in ChEMBL and PubChem. Independent models are trained on 
-  multiple bioactivity datasets, corresponding to single-point (percent 
-  inhibition) and dose-response (MIC) assays, among others. A ranking score is 
-  provided for each model alongside a combined consensus score.
+Title: Antimicrobial activity prediction against Staphylococcus aureus from public ChEMBL and PubChem data
+Description: >
+  Bioactivity prediction of growth inhibition in Staphylococcus aureus, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 Deployment:
   - Local
   - Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization,
-  Projection, Similarity search, Generation
+Source: Local
+Source Type: Internal
+Task: Annotation
+Subtask: Activity prediction
 Input:
   - Compound
 Input Dimension: 1
 Output:
-  - Value
   - Score
-  - Compound
-  - Text
-Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: The output of this template model should be interpreted like 
-  this.
+Output Dimension: 95
+Output Consistency: Fixed
+Interpretation: Probability of antimicrobial activity against Staphylococcus aureus from 94 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
 Tag:
-  - S.aureus
+  - Gram-positive bacteria
   - ESKAPE
   - Antimicrobial activity
   - ChEMBL
 Biomedical Area:
-  - Biomedical Area 1
-  - Biomedical Area 2
+  - Antimicrobial resistance
+  - Pneumonia
 Target Organism:
-  - Target Organism 1
-  - Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
-Publication Year: 2025
-Publication: None
+  - Staphylococcus aureus
+Publication Type: Other
+Publication Year: 2026
+Publication: https://github.com/ersilia-os/chembl-antimicrobial-models
 Source Code: https://github.com/ersilia-os/chembl-antimicrobial-models
 License: GPL-3.0-or-later
 Contributor: arnaucoma24
