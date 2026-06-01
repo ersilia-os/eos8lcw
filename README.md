@@ -2,7 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Staphylococcus aureus, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-05-21.
+This model was incorporated on 2026-05-19.Last packaged on 2026-06-01.
 
 ## Information
 ### Identifiers
@@ -50,11 +50,11 @@ _10 of 97 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1453`
 - **Environment Size (Mb):** `1889`
-- **Image Size (Mb):** `3959.44`
+- **Image Size (Mb):** `4303.41`
 
 **Computational Performance (seconds):**
-- 10 inputs: `85.74`
-- 100 inputs: `85.46`
+- 10 inputs: `116.99`
+- 100 inputs: `123.32`
 - 10000 inputs: `-1`
 
 ### References
