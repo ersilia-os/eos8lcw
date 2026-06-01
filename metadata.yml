@@ -22,7 +22,9 @@ Output:
   - Score
 Output Dimension: 97
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Staphylococcus aureus from 96 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Staphylococcus 
+  aureus from 96 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted
+  consensus score.
 Tag:
   - Gram-positive bacteria
   - ESKAPE
