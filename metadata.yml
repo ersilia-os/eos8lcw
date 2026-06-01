@@ -47,8 +47,8 @@ Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8lcw.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos8lcw
 Docker Architecture: AMD64
-Model Size: 1045.0
-Environment Size: 1888.0
+Model Size: 1453.0
+Environment Size: 1889.0
 Image Size: 3959.44
 Computational Performance 1: 85.74
 Computational Performance 2: 74.75
