@@ -1,6 +1,5 @@
 {
     "portfolio": [
-        "lr",
         "xgb",
         "rf",
         "svc"
@@ -12,9 +11,9 @@
     "batch_priors": [
         0.1
     ],
-    "decision_cutoff_raw": 0.25715701589250334,
-    "decision_cutoff_proba": 0.08384673689280031,
-    "decision_cutoff_rank": 0.8394994559303591,
-    "decision_cutoff_logit": -2.391193096975869,
-    "decision_cutoff_lift": 0.8384673689280031
+    "decision_cutoff_raw": 0.5267822116440536,
+    "decision_cutoff_proba": 0.3844691012250237,
+    "decision_cutoff_rank": 0.8970901348474095,
+    "decision_cutoff_logit": -0.4706217206677349,
+    "decision_cutoff_lift": 3.844691012250237
 }

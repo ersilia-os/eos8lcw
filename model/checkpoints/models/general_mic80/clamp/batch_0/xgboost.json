@@ -18,7 +18,7 @@
     "reg_lambda": 2.125,
     "gamma": 0.05,
     "max_bin": 128,
-    "nthread": 64,
+    "nthread": 56,
     "objective": "binary:logistic",
     "scale_pos_weight": 2.0556,
     "eval_metric": "auc"

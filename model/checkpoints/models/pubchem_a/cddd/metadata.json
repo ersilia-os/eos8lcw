@@ -6,16 +6,16 @@
     "max_batch_size": 100000,
     "max_imbalance_ratio": 100,
     "num_batches": 4,
-    "population_prior": 0.00265725555324891,
+    "population_prior": 0.002658469718368364,
     "batch_priors": [
-        0.010543657331136738,
-        0.01054539462843961,
-        0.01054539462843961,
-        0.01054539462843961
+        0.01054887094115708,
+        0.01054887094115708,
+        0.010550609957138147,
+        0.010550609957138147
     ],
-    "decision_cutoff_raw": 0.01132227180287127,
-    "decision_cutoff_proba": 0.01050388385897437,
-    "decision_cutoff_rank": 0.7522772477093517,
-    "decision_cutoff_logit": -4.545450759861248,
-    "decision_cutoff_lift": 3.952906917865589
+    "decision_cutoff_raw": 0.016455916404714655,
+    "decision_cutoff_proba": 0.010622656726884432,
+    "decision_cutoff_rank": 0.7615998609959312,
+    "decision_cutoff_logit": -4.534086651935073,
+    "decision_cutoff_lift": 3.9957787194221224
 }
