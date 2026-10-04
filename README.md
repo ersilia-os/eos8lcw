@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Staphylococcus aureus from public ChEMBL and PubChem data
 
-Bioactivity prediction of growth inhibition in Staphylococcus aureus, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Predicts inhibition of Staphylococcus aureus, the most heavily screened bacterial pathogen in public data and the source of the largest panel in this family, with eighteen classifiers spanning ChEMBL and PubChem assay pools. Single-point and dose-response measurements are modelled separately before a quality-weighted consensus combines them. The breadth of underlying data makes this among the better-supported organisms here, though most of it concerns methicillin-susceptible strains.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `19`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of antimicrobial activity against Staphylococcus aureus from 18 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+- **Interpretation:** Probability of Staphylococcus aureus growth inhibition across eighteen sub-models, plus a weighted consensus.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
