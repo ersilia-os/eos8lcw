@@ -50,8 +50,8 @@ _10 of 19 columns are shown_
 - **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos8lcw_v4.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos8lcw_v4.sif)
 
 ### Resource Consumption
-- **Model Size (Mb):** `1112`
-- **Environment Size (Mb):** `7982`
+- **Model Size (Mb):** `1228`
+- **Environment Size (Mb):** `7923`
 - **Image Size (Mb):** `8994.5`
 
 **Computational Performance (seconds):**
